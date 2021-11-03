@@ -1,0 +1,12 @@
+.footer {
+    background-color: #F7F7F7;
+    min-height: 11.1vh;
+}
+
+.footer-content {
+    justify-content: center;
+}
+
+.footer-text {
+    margin: 0 1em;
+}

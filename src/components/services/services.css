@@ -1,0 +1,16 @@
+.services {
+  background-color: rgb(241, 241, 241);
+  align-items: center;
+}
+
+.services-ico {
+  font-size: 40px;
+}
+
+.services-title {
+  font-size: 15px;
+}
+
+.services-subtitle {
+  font-size: 13px;
+}

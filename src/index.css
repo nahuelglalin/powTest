@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.logo-font {
+  font-family: 'Zen Antique Soft', serif;
+  font-weight: 900;
+}
+
+.backgound {
+  background-color: #F7F7F7;
+}
+
+.navbar-toggler {
+  border: none;
+  color: black;
+}
+
+.active-link {
+  border-bottom: 2px solid black;
+}
+
+.banner {
+  background-color: black;
+  height: 1.8em;
+  justify-content: center;
+}
+
+.fs-7 {
+  font-size: .7em;
+  font-weight: 100;
+}
+
+.navbar-toggler {
+  position: absolute;
+}
+
+.carrito-title{
+  font-size: 1.2em;
+}
+
+.borde {
+  
+}
+
+.shop {
+  float: right;
+  margin-top: -4em;
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+  .shop {
+    display: none;
+  }
+}
+
+.left-container {
+  width: 60%;
+}
+
+.right-container {
+  width: 40%;
+}
+
+.free-text {
+  color: #3DB56A;
+}
+

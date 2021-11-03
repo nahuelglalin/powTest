@@ -1,0 +1,46 @@
+.article {
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid #acacac;
+    padding-top: .7em;
+}
+
+.product-name {
+    margin-left: -5em;
+    font-size: 10px;
+}
+
+.product-name p{
+    font-size: 12px;
+    color: rgb(158, 158, 158);
+}
+
+.quantity {
+    display: flex;
+    max-height: 2em;
+    border: 1px solid #acacac;
+    padding: .5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantity-btn {
+    border: none;
+    background-color: #fff;
+}
+
+.quantity-btn-left {
+    border-right: 1px solid rgb(243, 243, 243);
+}
+
+.quantity-btn-right {
+    border-left: 1px solid rgb(243, 243, 243);
+}
+
+.quantity-number {
+    margin: 0 .5em;
+}
+
+.article-image {
+    width: 5em;
+}
