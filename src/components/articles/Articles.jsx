@@ -4,6 +4,8 @@ import { useMediaQuery } from 'react-responsive';
 import { Table } from '../table/Table';
 import { cssClassName } from "../util/cssClassName";
 
+import { connect } from 'react-redux';
+
 import img1 from '../../assets/img1.jpg';
 import img2 from '../../assets/img2.jpg';
 
@@ -25,3 +27,11 @@ export const Articles = () => {
 
     )
 }
+
+const mapStateToProps = state => {
+    return {
+        articles: state.shop.products,
+    }
+
+}
+
