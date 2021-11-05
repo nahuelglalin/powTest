@@ -1,0 +1,92 @@
+.navbar-ico {
+    float: left;
+}
+
+.navbar-brand {
+    margin: 0 !important;
+}
+
+.navbar-logo {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-ico {
+    position: absolute;
+    margin: 1em 2.2em;
+    font-size: 1em;
+}
+
+.shop-ico {
+    margin: 0 .5em;
+}
+
+
+.shop i{
+    margin: .2em .6em;
+}
+
+.fas {
+    transition: .2s;
+}
+
+.fas:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.far {
+    transition: .2s;
+}
+
+.far:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+.cart p {
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 0 6px;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #F7F7F7;
+    z-index: 100 !important;
+    transition: .2s;
+}
+
+.cart p:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.circle p{
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -0.5em;
+    right: 2.6em;
+    color: #000;
+    z-index: 10 !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .cart p {
+        position: absolute;
+        right: 1em;
+        margin-top: -2.8em;
+        
+    }
+    .circle p{
+        border: 1px solid #000;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: -2.48em;
+        right: 1em;
+        color: #000;
+    }
+}

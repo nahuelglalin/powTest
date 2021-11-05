@@ -1,11 +1,18 @@
 .services {
-  background-color: rgb(241, 241, 241);
+  background-color: #F7F7F7;
   align-items: center;
+  justify-content: center;
+  padding: 0 1em ;
 }
 
-.services-ico {
-  font-size: 40px;
+.services-content {
+  margin: 0 1em;
 }
+
+.services-text {
+  margin: 1em 0;
+}
+
 
 .services-title {
   font-size: 15px;
@@ -13,4 +20,52 @@
 
 .services-subtitle {
   font-size: 13px;
+  margin: auto;
+}
+
+@media only screen and (max-width: 861px) {
+  .services {
+    padding: 0;
+    margin: 0;
+  }
+
+  .services-ico {
+    font-size: 30px;
+  }
+
+  .services-title {
+    font-size: 12px;
+  }
+  
+  .services-subtitle {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .services {
+    padding: 0 4em;
+    margin: 0;
+    flex-direction: column;
+    align-items: self-start;
+  }
+
+  .services-content {
+    align-items: flex-start;
+    padding: 1em 0;
+    text-align: left;
+  }
+
+  .services-ico {
+    font-size: 40px;
+    float: left;
+  }
+
+  .services-title {
+    font-size: 14px;
+  }
+  
+  .services-subtitle {
+    font-size: 12px;
+  }
 }

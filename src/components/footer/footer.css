@@ -9,4 +9,48 @@
 
 .footer-text {
     margin: 0 1em;
+    transition: .2s;
+}
+
+.footer-text:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.logo-font {
+    transition: .2s;
+}
+
+.logo-font:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.fab {
+    transition: .2s;
+}
+
+.fab:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+@media only screen and (max-width: 861px) {
+    .footer-content {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    } 
+
+    .footer-text-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-font {
+        font-size: 1em;
+    }
+
 }

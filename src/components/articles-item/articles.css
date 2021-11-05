@@ -5,6 +5,10 @@
     padding-top: .7em;
 }
 
+.article p {
+    margin-bottom: 0;
+}
+
 .product-name {
     margin-left: -5em;
     font-size: 10px;
@@ -13,6 +17,7 @@
 .product-name p{
     font-size: 12px;
     color: rgb(158, 158, 158);
+    margin-bottom: 0;
 }
 
 .quantity {
@@ -42,5 +47,42 @@
 }
 
 .article-image {
-    width: 5em;
+    width: 6em;
+}
+
+.article-center-text {
+    text-align: left;
+}
+
+.product-price {
+    font-size: 15px !important;
+    margin: 1em 0 !important;
+    color: #000 !important;
+} 
+
+.discount {
+    color: red !important;
+    margin-right: .5em !important;
+    text-decoration:line-through;
+}
+
+.fa-trash-alt {
+    transition: .3s;
+}
+
+.fa-trash-alt:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+
+@media only screen and (max-width: 861px) {
+    .article {
+        align-items: initial;
+    }
+
+    .article-image {
+        width: 7em;
+    }
 }

@@ -1,0 +1,25 @@
+
+.banner {
+    background-color: black;
+    height: 1.8em;
+    margin: auto;
+  }
+  
+  .banner p {
+    margin-top: 6px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .fs-7 {
+    font-size: .7em;
+    font-weight: 100;
+  }
+  
+
+@media only screen and (max-width: 861px) {
+    .banner p {
+        font-size: 0.8em !important;
+        
+    }
+}

@@ -5,6 +5,7 @@
     border-radius: 3px;
     border: none;
     height: 3.5em;
+    transition: .3s;
   }
   
   .btn-continue {
@@ -13,4 +14,17 @@
     border-radius: 3px;
     border: 2px solid black;
     height: 3.5em;
+    transition: .3s;
+  }
+
+  .btn-complete:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: rgb(24, 24, 24);
+  }
+
+  .btn-continue:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+    background-color: rgb(226, 226, 226);
   }
